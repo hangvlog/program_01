@@ -1,0 +1,122 @@
+@width: 350px;
+img{
+    height: 14px;
+}
+.standard-main{
+    background-color: #f2f2f2;
+    margin: 40px auto;
+    box-shadow: 0px 0px 15px #4d4d4d;
+    width: @width;
+    // 数字加粗
+
+
+
+    .number {
+        font-weight: bold;
+    }
+
+    .title{
+        font-size: 14px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .nav{
+        color: #000;
+        font-size: 30px;
+        height: 40px;
+        line-height: 40px;
+        font-weight: bold;
+        
+    }
+    .result{
+        height: 120px;
+        text-align: right;
+        .pre{
+            color: #a7a7a7;
+            padding-right: 12px;
+        }
+        .second{
+            color: #000;
+            font-size: 40px;
+            font-weight: bold;
+            padding-right: 10px;
+        }
+    }
+    // 功能区
+    #functional-area {
+        // position: relative;
+        height: 32px;
+        font-size: 8px;
+        :last-child:hover{
+            // background-color: #f2f2f2;
+            background-color: #B8BABA;
+
+        }
+        li{
+            color: #000;
+            height: 32px;
+            width: 53.3px;
+            // position: absolute;
+            float: left;
+            // height: 30px;
+            // display: block;
+            // width: 55px;
+
+            // padding: 5px auto;
+            // text-align: center;
+            border: none;
+            border-radius: 8%;
+            // padding-bottom: 8px;
+            // text-align: center;
+        }
+    }
+    // 按键区-数字和运算符
+    ul{
+        // color: #000;
+        font-size: 16px;
+        // height: 45px;
+        position: relative;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        // margin-top: 20px;
+        li:hover{
+            background-color: #B8BABA;
+        }
+        .color:hover{
+            background-color: rgba(113,174,188);
+        }
+        li{
+            // flex: 1;
+            width: 25%;
+            height: 45px;
+            text-align: center;
+            line-height: 26px;
+            // padding: 5px 0;
+            // justify-content: center;
+            align-items: center;
+            border:1px solid #ccc;
+            padding-top: 8px;
+            border-radius: 5%;
+        }
+
+        .number{
+            color: #000;
+            background-color: #ffffff;
+        }
+        // :nth-child(-n+4){
+        //     border-top: none;
+        // }
+
+        .img{
+            width: 25%;
+            // height: 45px;
+        }
+        .color{
+            background-color: rgba(113,174,188,0.7);
+        }
+        
+    }
+    
+
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>计算器</title>
+    <!-- 引入初始化样式文件 -->
+    <link rel="stylesheet" href="CSS/base.css">
+    <!-- 引入计算器样式文件 -->
+    <link rel="stylesheet" href="CSS/cal.css">
+    <!-- 引入计算器js部分 -->
+
+</head>
+
+<body>
+    <!-- 标准型 -->
+    <div class="standard-main" id="std-main">
+        <div class="title">
+            &nbsp;&nbsp;计算器
+        </div>
+        <!-- 导航部分 -->
+        <div class="nav">
+            &nbsp☰&nbsp;&nbsp;&nbsp;标准
+        </div>
+        <!-- 结果展示区域 -->
+        <div class="result">
+            <div class="pre" id="pre">
+            </div>
+            <div class="second" id="second">
+                0
+            </div>
+        </div>
+        <!-- 功能区 -->
+        <ul id="functional-area">
+            <li>MC</li>
+            <li>MR</li>
+            <li>M+</li>
+            <li>M-</li>
+            <li>MS</li>
+            <li>M</li>
+        </ul>
+        <!-- 按键区-数字和运算符 -->
+        <ul id="std-num-symbol" class="btn">
+            <li class="operator" data-name="%">%</li>
+            <li>CE</li>
+            <li id="clear">C</li>
+            <li id="back">Back</li>
+            <li class="img"><img src="./images/1_x.png"></li>
+            <li class="img"><img src="./images/x_2.png"></li>
+            <li class="img"><img src="./images/x_y_sqrt.png"></li>
+            <li class="operator" id="division" data-name="/">÷</li>
+            <li class="number">7</li>
+            <li class="number">8</li>
+            <li class="number">9</li>
+            <li class="operator" id="multiply" data-name="*">x</li>
+            <li class="number">4</li>
+            <li class="number">5</li>
+            <li class="number">6</li>
+            <li class="operator" id="sub" data-name="-">-</li>
+            <li class="number">1</li>
+            <li class="number">2</li>
+            <li class="number">3</li>
+            <li class="operator" id="add" data-name="+">+</li>
+            <li id="opposite">+/-</li>
+            <li class="number">0</li>
+            <li class="number" id="dot">.</li>
+            <li class="color" id="equal">=</li>
+        </ul>
+    </div>
+    <script src="js/cal.js"></script>
+</body>
+<!-- <script>
+    var num = document.querySelectorAll('.number')
+    console.log(num);
+</script> -->
+
+</html>

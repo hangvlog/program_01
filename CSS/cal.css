@@ -1,0 +1,86 @@
+img {
+  height: 14px;
+}
+.standard-main {
+  background-color: #f2f2f2;
+  margin: 40px auto;
+  box-shadow: 0px 0px 15px #4d4d4d;
+  width: 350px;
+}
+.standard-main .number {
+  font-weight: bold;
+}
+.standard-main .title {
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+}
+.standard-main .nav {
+  color: #000;
+  font-size: 30px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: bold;
+}
+.standard-main .result {
+  height: 120px;
+  text-align: right;
+}
+.standard-main .result .pre {
+  color: #a7a7a7;
+  padding-right: 12px;
+}
+.standard-main .result .second {
+  color: #000;
+  font-size: 40px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+.standard-main #functional-area {
+  height: 32px;
+  font-size: 8px;
+}
+.standard-main #functional-area :last-child:hover {
+  background-color: #B8BABA;
+}
+.standard-main #functional-area li {
+  color: #000;
+  height: 32px;
+  width: 53.3px;
+  float: left;
+  border: none;
+  border-radius: 8%;
+}
+.standard-main ul {
+  font-size: 16px;
+  position: relative;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+.standard-main ul li:hover {
+  background-color: #B8BABA;
+}
+.standard-main ul .color:hover {
+  background-color: rgba(113, 174, 188);
+}
+.standard-main ul li {
+  width: 25%;
+  height: 45px;
+  text-align: center;
+  line-height: 26px;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding-top: 8px;
+  border-radius: 5%;
+}
+.standard-main ul .number {
+  color: #000;
+  background-color: #ffffff;
+}
+.standard-main ul .img {
+  width: 25%;
+}
+.standard-main ul .color {
+  background-color: rgba(113, 174, 188, 0.7);
+}
